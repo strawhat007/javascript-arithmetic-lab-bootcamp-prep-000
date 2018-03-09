@@ -17,8 +17,8 @@ function dec(n) {
   return n -+1;
 }
 function makeInt(n) {
-  parseInt(2,10)
-  return n
+  var parsed = parseInt(n,10);
+  return parsed * 100
 }
 
 
