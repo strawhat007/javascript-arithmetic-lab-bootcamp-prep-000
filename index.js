@@ -20,11 +20,6 @@ function makeInt(n) {
   var parsed = parseInt(n,10);
   return parsed * 1
 }
-
-
-
-
-
 function preserveDecimal(n) {
-  return ('2.222', 10)
+  return (n,10)
 }
